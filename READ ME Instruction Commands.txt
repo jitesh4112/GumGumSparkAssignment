@@ -1,0 +1,5 @@
+//To Run on Data Frame
+spark-submit --class com.gumgum.sparkjob.UserEventJourneyDF --master local <Path-Of-Jar-File>/adeventanalyzer.jar <Input-Path> <Output-Path>
+
+//To Run on RDD
+spark-submit --class com.gumgum.sparkjob.UserEventJourneyRDD --master local <Path-Of-Jar-File>/adeventanalyzer.jar <Input-Path> <Output-Path>
